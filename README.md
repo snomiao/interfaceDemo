@@ -9,10 +9,10 @@
 调用方法： POST /
 参数（BODY）：
 
-|param|optional|type|
-|:-:|:-:|:-:|
-|firstname|no|string|
-|lastname|no|string|
-|age|yes|number|
-|height|yes|number|
-|weight|yes|number|
+|param|optional|type|comment|
+|:-:|:-:|:-:|:-:| 
+|firstname|no|string|名字|
+|lastname|no|string|姓|
+|age|yes|number|年龄|
+|height|yes|number|身高|
+|weight|yes|number|体重|
