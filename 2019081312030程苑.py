@@ -2,10 +2,6 @@
 # -*- coding:utf-8 -*-
 #
 # 2019081312030 小小程苑
-# https://docs.python.org/3/library/http.server.html
-# https://blog.anvileight.com/posts/simple-python-http-server/
-# https://stackoverflow.com/questions/6391280/simplehttprequesthandler-override-do-get
-# https://www.w3schools.com/python/python_json.asp
 #
 
 from http.server import HTTPServer, BaseHTTPRequestHandler
@@ -53,3 +49,11 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
 with socketserver.TCPServer(("", PORT), SimpleHTTPRequestHandler) as httpd:
     print("serving at port", PORT)
     httpd.serve_forever()
+
+#
+# 一点点参考资料
+# https://docs.python.org/3/library/http.server.html
+# https://blog.anvileight.com/posts/simple-python-http-server/
+# https://stackoverflow.com/questions/6391280/simplehttprequesthandler-override-do-get
+# https://www.w3schools.com/python/python_json.asp
+#
